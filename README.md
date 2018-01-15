@@ -1,6 +1,6 @@
 # ABCD 한번에 훅가는 파이썬&장고 스터디
 <br/><br/>
-BOOK     : "Django를 활용한 쉽고빠른 웹개발" http://www.yes24.com/24/Goods/29331035?Acode=101
+BOOK     : <a href='http://www.yes24.com/24/Goods/29331035?Acode=101'>Django를 활용한 쉽고빠른 웹개발</a> 
 <br/>
 FACEBOOK : https://www.facebook.com/events/1799325850100251/
 <br/>
