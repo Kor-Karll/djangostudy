@@ -4,9 +4,11 @@ BOOK     : <a href='http://www.yes24.com/24/Goods/29331035?Acode=101'>Django�
 <br/>
 FACEBOOK : <a href='https://www.facebook.com/events/1799325850100251/'>이벤트</a>
 <br/>
-PPT      :  <a href='https://docs.google.com/presentation/d/1wqCrB9ZKMaMhcVulTzysyMTzhyX_UZZ8ycOd0l0qqwY/edit?usp=sharing'>Django Study(1)</a>
+PPT      :  
 <br/>
-<a href='https://docs.google.com/presentation/d/1wqCrB9ZKMaMhcVulTzysyMTzhyX_UZZ8ycOd0l0qqwY/edit?usp=sharing'>Django Study(2)</a>
+<a href='https://docs.google.com/presentation/d/1wqCrB9ZKMaMhcVulTzysyMTzhyX_UZZ8ycOd0l0qqwY/edit?usp=sharing'>Django Study(1)</a>
+<br/>
+<a href='https://docs.google.com/presentation/d/1CfDGHaCm5FjmjbAEa4Z_QWeWw01z0lLk1U5_pXymGuk/edit?usp=sharing'>Django Study(2)</a>
 <br/>
 <br/><br/>
 
