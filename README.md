@@ -10,5 +10,7 @@ PPT      :  
 <br/>
 <a href='https://docs.google.com/presentation/d/1CfDGHaCm5FjmjbAEa4Z_QWeWw01z0lLk1U5_pXymGuk/edit?usp=sharing'>Django Study(2)</a>
 <br/>
+<a href='https://docs.google.com/presentation/d/1UZbrlqWQ4xwCgtV482QYf8iTFqhNxjPFsdY1lG_UpSs/edit?usp=sharing'>Django Study(3)</a>
+<br/>
 <br/><br/>
 
