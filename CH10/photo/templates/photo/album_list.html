@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}album_list.html{% endblock %}
+
+{% load staticfiles %}
+{% block extrastyle %}{% static "photo/photo.css" %}{% endblock %}
+
+{% block content %}
+<div id="content">
+
+    {% for item in object_list %}
+
+    <div class="clear_float">
+        <h2 style="display:inline"><a href="{% url 'photo:album_detail' item.id %}">{{ item.name }}</a></h2>
+        &emsp;<b><i>{{ item.description }}</i></b>
+    </div>
+
+    <hr/>
+
+    <div class="album-list">
+        {% for photo in item.photo_set.all|slice:":5" %}
+        <div class="album-list-photo">
+            <a href="{{ photo.get_absolute_url }}">
+            <img class="thumbnail" src="{{ photo.image.thumb_url }}" />
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% endfor %}
+
+</div>
+{% endblock %}
