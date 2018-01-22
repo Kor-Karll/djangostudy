@@ -15,7 +15,7 @@ PPT      :  
 <br/><br/>
 # 개발 환경
 <br/>
-- Windows10(64bit)
-- Python 3.6.3
-- Django 2.0.1
-- Mariadb 10.2.12
+- Windows10(64bit)<br/>
+- Python 3.6.3<br/>
+- Django 2.0.1<br/>
+- Mariadb 10.2.12<br/>
