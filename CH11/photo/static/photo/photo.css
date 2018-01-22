@@ -1,0 +1,54 @@
+/* album_list.html */
+div.album-list {
+    margin: 20px 50px;
+}
+
+div.album-list-photo {
+    float: left;
+    width: 150px;
+    height: 180px;
+}
+
+/* album_detail.html */
+div.album-detail {
+    margin: 30px 10px;
+}
+
+div.album-detail-photo {
+    float: left;
+    width: 220px;
+    height: 220px;
+}
+
+div.album-detail-photo > li {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* photo_detail.html */
+table.photo-detail {
+    margin: 30px 50px 0 50px;
+    border: 1px solid #ccc;
+}
+
+table.photo-detail td {
+    width: 50%;
+}
+
+table.photo-detail ul li {
+    font-weight: bold;
+}
+
+table.photo-detail ul p {
+    font-style: italic;
+}
+
+/* common */
+img.thumbnail {
+    border:3px solid #ccc;
+}
+
+div.clear_float {
+    clear: both;
+}
