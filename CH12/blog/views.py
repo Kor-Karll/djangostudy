@@ -80,7 +80,7 @@ class SearchFormView(FormView):
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
     fields = ['title', 'slug', 'description', 'content', 'tag']
-    initial = {'slug': '자동 채움'} # slug 컬럼은 자동으로 채워짐. 표시만
+    initial = {'slug': 'auto_'} # slug 컬럼은 자동으로 채워짐. 표시만
     #fields = ['title', 'description', 'content', 'tag']
     success_url = reverse_lazy('blog:index')
 
