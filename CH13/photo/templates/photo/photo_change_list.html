@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}photo_change_list.html{% endblock %}
+
+{% block content %}
+<div id="content">
+
+    <h1>Photo Change - {{user}}</h1>
+    
+    <table class="change-list">
+        <tr>
+            <th>Album</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Owner</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    
+        {% for item in object_list %}
+        <tr>
+            <td>{{ item.album }}</td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.description|linebreaks }}</td>
+            <td>{{ item.owner }}</td>
+            <td><a href="{% url 'photo:photo_update' item.id %}">Update</a></td>
+            <td><a href="{% url 'photo:photo_delete' item.id %}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock %}
